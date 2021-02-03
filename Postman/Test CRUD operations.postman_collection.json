@@ -1,0 +1,279 @@
+{
+	"info": {
+		"_postman_id": "f9257cc4-f26a-42f2-ad3b-863af0726a8c",
+		"name": "Test CRUD operations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET ALL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/names",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"names"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add name",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/names/add?name=Razvan",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"names",
+						"add"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Razvan"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add name Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/names/add?name=Albert",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"names",
+						"add"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Albert"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add name Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/names/add?name=Paula",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"names",
+						"add"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Paula"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add name",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/names/add?name=George",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"names",
+						"add"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "George"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add name Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/names/add?name=Razvanf",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"names",
+						"add"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Razvanf"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit name",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/names/edit?name=George&newName=Georgeta",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"names",
+						"edit"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "George"
+						},
+						{
+							"key": "newName",
+							"value": "Georgeta"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALL Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/names",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"names"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete name",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/names/delete?name=Razvanf",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"names",
+						"delete"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Razvanf"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALL Copy 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/names",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"names"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Clear list",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/names/deleteAll",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"names",
+						"deleteAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALL Copy 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/names",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"names"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
